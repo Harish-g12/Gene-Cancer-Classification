@@ -1,0 +1,43 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #3f51b5;
+}
+
+.banner, .motivation {
+    width: 50%;
+    margin: 20px;
+}
+
+.buttons a, button {
+    background-color: #3f51b5;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 12px;
+    margin: 8px;
+    width: 60%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.message {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #4caf50;
+}

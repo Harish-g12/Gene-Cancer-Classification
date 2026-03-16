@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gene Cancer Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Gene-Based Cancer Detection 🎗️</h1>
+        <img src="{{ url_for('static', filename='images/banner.png') }}" alt="Banner" class="banner">
+        <div class="buttons">
+            <a href="{{ url_for('manual') }}">Manual Input</a>
+            <a href="{{ url_for('upload') }}">Upload CSV</a>
+        </div>
+    </div>
+</body>
+</html>

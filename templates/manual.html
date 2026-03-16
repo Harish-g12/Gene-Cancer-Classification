@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manual Gene Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Gene Expression Values</h2>
+        <form action="{{ url_for('predict_manual') }}" method="POST">
+            {% for i in range(1,11) %}
+                <input type="text" name="gene{{i}}" placeholder="Gene {{i}}" required><br>
+            {% endfor %}
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
